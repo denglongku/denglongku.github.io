@@ -13,16 +13,17 @@ title: 酱紫de秀美
 
   <h1>食色性也</h1>
   <ul class="posts">
-    
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
   </ul>
 
   <h1>颜如玉</h1>
    <ul class="posts">
-    
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
   </ul>
 
-  <h1></h1>
-  <ul class="posts">
-    
-  </ul>
+ 
 </div>
