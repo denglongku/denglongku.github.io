@@ -16,8 +16,8 @@ html, body {
 }
 
 body {
-  background-color: #f0f;
-  font: 13.34px "微软雅黑",helvetica, arial, clean, sans-serif;
+  background-color: white;
+  font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
@@ -67,7 +67,7 @@ ul.posts {
   }
 
   ul.posts span {
-    color: #aaa;
+    color: red;
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
   }
