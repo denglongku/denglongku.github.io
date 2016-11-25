@@ -67,7 +67,7 @@ ul.posts {
   }
 
   ul.posts span {
-    color: red;
+    color: #aaa;
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
   }
@@ -79,6 +79,7 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
+  background:green;
   font-size: 110%;
   text-align: justify;
   width: 42em;
