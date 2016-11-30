@@ -92,7 +92,7 @@ ul.posts {
   background: -webkit-linear-gradient(to left, #C9FFBF , #FFAFBD); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #C9FFBF , #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
-  height:160px;
+  height:149px;
   width:100%;
   color: #a00;
   font-weight: bold;
@@ -100,21 +100,12 @@ ul.posts {
 }
 
    .title a {
-    color: #a00;
+    color: #000;
+    font-size:7em;
     text-decoration: none;
   }
 
   .title a:hover {
-    color: black;
-  }
-
-  .title a.extra {
-    color: #aaa;
-    text-decoration: none;
-    margin-left: 1em;
-  }
-
-   .title a.extra:hover {
     color: black;
   }
 
