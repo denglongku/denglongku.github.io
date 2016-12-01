@@ -89,11 +89,12 @@ ul.posts {
 
 .title {
   
-  height:149px;
+  height:204px;
   width:100%;
+  line-height:20px;
   text-align: center;
   margin-bottom: 2em;
-  border-bottom:1px solid #d9dadc;
+  border-bottom:4px solid #eee;
 }
 
    .title a {
