@@ -113,22 +113,20 @@ ul.posts {
 
   .site .footer {
     font-size: 80%;
-    color: #666;
     border-top: 4px solid #eee;
     margin-top: 2em;
     overflow: hidden;
   }
 
     .site .footer .contact {
-      float: left;
       margin-right: 3em;
     }
 
       .site .footer .contact a {
-        color: #8085C1;
+        color: #607fa6;
       }
 
-    .site .footer .rss {
+    /*.site .footer .rss {
       margin-top: 1.1em;
       margin-right: -.2em;
       float: right;
@@ -136,7 +134,7 @@ ul.posts {
 
       .site .footer .rss img {
         border: 0;
-      }
+      }*/
 
 /*****************************************************************************/
 /*
