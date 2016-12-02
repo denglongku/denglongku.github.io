@@ -17,7 +17,7 @@ html, body {
 
 body {
   background-color: white;
-  font: 13.34px "Microsoft YaHei",helvetica, arial, clean, sans-serif;
+  font: 13.34px "HelveticaNeue-Light", "微软雅黑","Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   *font-size: small;
   text-align: center;
 }
@@ -101,14 +101,18 @@ ul.posts {
 }
 
    .title a {
-    color: #000;
+     background: -webkit-linear-gradient(#4CA1AF, #eee);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
     font-size:16px;
-    font-family:"Microsoft YaHei";
+    font-family:"HelveticaNeue-Light", "微软雅黑","Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     text-decoration: none;
   }
 
   .title a:hover {
-    color: #51c332;
+    background: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #51c332;text-decoration: none;
   }
 
   .site .meta {
