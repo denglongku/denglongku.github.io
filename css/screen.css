@@ -35,7 +35,8 @@ p {
 }
 
 a {
-  color: #00a;
+  color: #607fa6;
+  text-decoration: none;
 }
 
 a:hover {
@@ -43,7 +44,7 @@ a:hover {
 }
 
 a:visited {
-  color: #607fa6;
+  color: #40a9aa;
 }
 
 table {
