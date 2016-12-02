@@ -35,14 +35,14 @@ p {
 }
 
 a {
-  color: #607fa6;
+  color: #40a9aa;
   text-decoration: none;
 }
 
-a:visited {
-  color: #40a9aa;
-  text-decoration: underline;
-}
+/*a:visited {*/
+  /*color: #40a9aa;*/
+  /*text-decoration: underline;*/
+/*}*/
 
 a:hover {
   color: #51c332;
@@ -125,8 +125,8 @@ ul.posts {
     .site .footer .contact {
       margin-right: 3em;
     }
-
-
+.site .footer .contact a{
+         color:#607fa6;}
 
     /*.site .footer .rss {
       margin-top: 1.1em;
