@@ -127,6 +127,8 @@ ul.posts {
     }
 .site .footer .contact a{
          color:#607fa6;}
+.site .footer .contact a:hover{
+  color:#51c332;}
 
     /*.site .footer .rss {
       margin-top: 1.1em;
